@@ -1,7 +1,7 @@
 pipeline {
   agent any
   stages {
-    stage('Create nodes') {
+    stage('Git Connection') {
       steps {
         echo 'test'        
       }
